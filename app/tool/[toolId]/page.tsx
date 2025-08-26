@@ -17,12 +17,7 @@ const aiTools = [
   },
   {
     id: "image-prompt",
-    name: "AI Image Prompt Generator",
-    description: "Generate product photo prompts for e-commerce.",
-  },
-  {
-    id: "art-images",
-    name: "AI Art & Images",
+    name: "AI Image Prompt",
     description: "Generate stunning artwork",
   },
   {
@@ -39,12 +34,7 @@ const aiTools = [
     id: "music-generator",
     name: "Music & Song Generator",
     description: "Compose music with AI",
-  },
-  {
-    id: "speech-to-text",
-    name: "AI Speech to Text",
-    description: "Transcribe audio to text",
-  },
+  }
 ]
 
 export default function ToolDetailPage() {

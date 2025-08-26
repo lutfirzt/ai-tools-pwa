@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/ai-tools-pwa',
-  assetPrefix: '/ai-tools-pwa/',
+  basePath: process.env.NODE_ENV === 'production' ? '/ai-tools-pwa' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ai-tools-pwa/' : '',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
