@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/ai-tools-pwa',
+  assetPrefix: '/ai-tools-pwa/',
   eslint: {
     ignoreDuringBuilds: true,
   },

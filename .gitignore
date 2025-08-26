@@ -5,7 +5,8 @@
 
 # next.js
 /.next/
-/out/
+# We need /out/ for gh-pages
+# /out/
 
 # production
 /build
